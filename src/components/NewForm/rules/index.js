@@ -1,0 +1,6 @@
+export { default as tel } from './tel.js'
+export { default as url } from './url.js'
+export { default as email } from './email.js'
+export { default as function } from './function.js'
+export { default as reg } from './reg.js'
+export { default as asin } from './asin.js'
