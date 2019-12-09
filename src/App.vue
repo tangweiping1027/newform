@@ -3,8 +3,7 @@
     <el-tabs v-model="activeName" type="card" @tab-click="handleClick">
       <el-tab-pane v-for="item in tabList" :key="item.id" :label="item" :name="item">
         <router-view />
-        <!-- 这是master分支 -->
-        <!-- 打标签 -->
+        <!-- 这是dev分支 -->
       </el-tab-pane>
     </el-tabs>
   </div>
