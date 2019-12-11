@@ -5,8 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "commitmsg": "commitlint -e $GIT_PARAMS"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@commitlint/cli": "^8.2.0",
@@ -58,7 +57,7 @@
   ],
   "config": {
     "commitizen": {
-      "path": "cz-customizable"
+      "path": "cz-conventional-changelog"
     }
   }
 }
