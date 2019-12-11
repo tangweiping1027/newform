@@ -27,6 +27,7 @@
     "@vue/cli-service": "^4.0.0",
     "babel-eslint": "^10.0.3",
     "cz-conventional-changelog": "3.0.2",
+    "cz-custom-enhanced": "0.0.2",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "husky": "^3.1.0",
@@ -58,7 +59,10 @@
   ],
   "config": {
     "commitizen": {
-      "path": "cz-conventional-changelog"
+      "path": "node_modules/cz-custom-enhanced"
+    },
+    "cz-customizable": {
+      "config": "config/path/to/my/config.js"
     }
   }
 }
